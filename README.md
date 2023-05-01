@@ -1,8 +1,8 @@
 # MemoryGame
 
-##Juego de memoria con react
+## Juego de memoria con react
 
-###Criterios completados:
+### Criterios completados:
 
 -(10 puntos) Por animar el flip de las tarjetas 
 
