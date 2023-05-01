@@ -9,7 +9,7 @@
         margin: 0;
         font-size: 1.5em;
         text-align: center;
-        background: #1b1523;
+        background: linear-gradient(to bottom right, #3d073d, #620062, #930093, #C200C2, #EE00EE);
         color: #fff;
       }
 
@@ -42,7 +42,7 @@
       }
 
       button:hover {
-        background: #c23866;
+        background: #3d073d;
         color: #fff;
       }
 
@@ -189,8 +189,8 @@
         return (
             <div className="App">
                 <h1>Premier League Memory</h1>
-                <button onClick={shuffledCards}>New Game</button>
-                <h2>Turns: {turns}</h2>
+                <button onClick={shuffledCards}>Nuevo Juego</button>
+                <h2>Turnos: {turns}</h2>
                 <div className="grid">
                     {cards.map((card) => (
                        <SingleCard key={card.id} card={card} handleChoise={handleChoise} flipped={card  === choiseOne || card === choiseTwo || card.matched} />
