@@ -190,7 +190,7 @@
             <div className="App">
                 <h1>Premier League Memory</h1>
                 <button onClick={shuffledCards}>Nuevo Juego</button>
-                <h2>Turnos: {turns}</h2>
+                <p>Turnos: {turns}</p>
                 <div className="grid">
                     {cards.map((card) => (
                        <SingleCard key={card.id} card={card} handleChoise={handleChoise} flipped={card  === choiseOne || card === choiseTwo || card.matched} />
